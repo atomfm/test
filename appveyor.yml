@@ -5,6 +5,10 @@ install:
   # install modules
   - npm install
 
+artifacts:
+  - path: test\node_modules
+    name: modules
+
 # Post-install test scripts.
 test_script:
   # Output useful info for debugging.
