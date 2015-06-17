@@ -6,7 +6,7 @@ install:
   - npm install
 
 artifacts:
-  - path: test\node_modules
+  - path: node_modules
     name: modules
 
 # Post-install test scripts.
